@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@500&family=Poppins&family=Roboto:wght@500&family=Pacifico&display=swap');
+
+.card{
+    display:inline; 
+    width:35%;
+    height:70vh;
+    background-color:#1A1A1D;
+    position:absolute; 
+    top:700px; 
+    left:32.5%;
+    border-radius:50px;  
+    display:flex; 
+    flex-direction:column; 
+    box-shadow:0px 0px 1.5px 1.5px #FFDF00;
+}
+.card-head{
+    width:auto; 
+    text-align:center; 
+    margin-top:0px; 
+    height:20%;  
+}
+.card-head h3{
+    padding-top:3%;
+    font-weight:500px; 
+    font-size:1.5em; 
+    font-family:"Pacifico"; 
+}
+.card-image {
+    padding-top:5px;
+    align-items:center; 
+    width:400px; 
+}
+
+.img_card{
+    height:60vh; 
+    width:420px; 
+    padding-left:5%; 
+}
+
+#card2{
+    z-index:0; 
+    background-color:#5FB3B8; 
+}
+
+#card2 h3{
+    font-family:"Poppins"; 
+}
+#card2 img{
+    padding-top:0; 
+}
+
+#card3{
+    z-index:0; 
+    background-color:#DD9BCF;
+}
+#card3 h3{
+    padding-top:5%; 
+    font-family:"Pacifico"; 
+    font-size:32px; 
+}
+
+#card1 h3{
+    font-family:"Montserrat"; 
+    font-weight:100; 
+}
+#card1{
+    z-index:9; 
+}
+#card1,#card2, #card3{ 
+    animation: card ease-in; 
+    animation-duration:5s;
+    animation-iteration-count:infinite ;
+    animation-fill-mode:both; 
+}
+
+@keyframes card{
+    0%{
+        top:700px; 
+    }
+    30%{
+        top:350px;
+    }
+    70%{
+        top:350px; 
+    }
+    80%{
+        top:700px;
+    }
+    100%{
+        top:700px; 
+    }
+}
