@@ -46,9 +46,14 @@ overlay.addEventListener('click',()=>{
     modal.classList.remove("active"); 
     overlay.classList.remove("active"); 
 })
+// to change the color of icons 
+/*
+let btn = document.getElementsByClassName("modal-btn"); 
+let icons = document.getElementsByClassName("btn-icon");
 
-let btn = document.querySelector("modal-btn"); 
-let icons = document.querySelector("btn-icon");
 btn.addEventListener("onmouseover",()=>{
-    
+    icons.classList.add("color-chg"); 
 })
+btn.addEventListener("onmouseout",()=>{
+    icons.classList.remove("color-chg"); 
+})*/
