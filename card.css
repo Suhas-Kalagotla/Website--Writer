@@ -3,6 +3,7 @@
 .card{
     display:inline; 
     width:35%;
+    min-width:400px; 
     height:70vh;
     background-color:#1A1A1D;
     position:absolute; 
