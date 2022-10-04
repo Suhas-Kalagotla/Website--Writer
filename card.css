@@ -27,14 +27,15 @@
 }
 .card-image {
     padding-top:5px;
+    display:flex; 
+    justify-content:center; 
     align-items:center; 
-    width:400px; 
+    width:100%; 
 }
 
 .img_card{
     height:60vh; 
-    width:420px; 
-    padding-left:5%; 
+    width:90%; 
 }
 
 #card2{
