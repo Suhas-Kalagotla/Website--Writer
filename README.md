@@ -1,4 +1,4 @@
-# Website--Writer-
+# Website--Writer
 Group project for Vihaan 
 
 This is a project which we have started for Vihaan . It is ACE Center of 
@@ -20,7 +20,7 @@ showcase of what we have learned in Vihan in first year.
 
 Our Team 
 Suhas - Team Lead - CSE 1st year 
-Pavan - CSS / HTML Developer - CSE 1st year 
-Charan - Designer , Developer - CSM 1st year 
+  Pavan - CSS / HTML Developer - CSE 1st year 
+  Charan - Designer , Developer - CSM 1st year 
 
 
