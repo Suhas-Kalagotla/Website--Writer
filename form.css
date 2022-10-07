@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@500&family=Poppins&family=Roboto:wght@500&family=Pacifico&display=swap');
 body{
     background-color: antiquewhite;
     
@@ -5,11 +6,12 @@ body{
 .card{
     background-color: #fff;
     color: black;
-    margin: auto;
+    display: flex;
+    margin: 50px 200px;
     padding: 20px 50px 30px 50px ;
-    width: 300px;
+    width: auto;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "Montserrat"sans-serif;
     font-size: 13px;
     border-radius: 15px;
 }
@@ -32,17 +34,17 @@ input{
     font-size: 18px;
 }
 .btn{
-display:flex; 
-align-items:center; 
-color: #000;
-background-color: #fff;
-border: 3px 300px black;
-border-radius: 5px;
-padding: 5px;
-padding-left: 35px;
-margin-top: 10px;
-width: 250px;
-position: relative;
+    display:flex; 
+    align-items:center; 
+    color: #000;
+    background-color: #fff;
+    border: 3px 300px black;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 35px;
+    margin-top: 10px;
+    width: 250px;
+    position: relative;
 }
 
 .grey{
