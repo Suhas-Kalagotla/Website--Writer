@@ -19,8 +19,9 @@ the website , the form validation part is skipped ) This website is a
 showcase of what we have learned in Vihan in first year. 
 
 Our Team 
-Suhas - Team Lead - CSE 1st year  ID = 21AG1A0525
-  Pavan - CSS / HTML Developer - CSE 1st year ID = 21AG1A0563
-  Charan - Designer , Developer - CSM 1st year ID = 21AGA6654
+
+Suhas - Team Lead - CSE 1st year - 21AG1A0525
+Pavan - CSS / HTML Developer - CSE 1st year - 21AG1A0563
+Charan - Designer , Developer - CSM 1st year - 21AGA6654
 
 
