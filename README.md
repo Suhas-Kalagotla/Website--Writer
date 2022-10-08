@@ -6,6 +6,8 @@ Emerging Technologies which teaches lastest technologies  from 1st
 year 
 
 Project Title -- Writer 
+website link - https://writer-gold.vercel.app/ (please view the website in 150%) 
+
 This website provides a platform for everyone to display there skills in 
 literature for free . Anyone with passion in writing can write there
 stories , poems or documentries and publish them for free . They can form 
