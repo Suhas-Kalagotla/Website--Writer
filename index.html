@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Writer-share your story</title>
+  <link rel="icon" type="image/jpg" href="favicon.jpg"> 
+  <link rel="stylesheet" href="home_style.css"> 
+  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    
+      <!-- navbar -->
+      <header>
+        <div class="logo">
+          <img src="images/favicon.jpg" class="icon"> 
+          <a href="home.html" id="name">Write<span style="color:purple;">r</span></a>
+        </div>
+          <a href="form.html" id="btn_1">SIGN IN</a>
+      </header >
+
+    <div class="box" id="box1">
+      <h1>Write what's in your mind</h1>
+      <p>Showcase your writing skills for free</p>
+      <button class="btn">Start Writing</button> 
+    </div>
+      
+      <!--cards-->
+    
+      <div class="card" id="card1">
+        <div class="card-head">
+          <h3>Story</h3>
+        </div>
+        <div class="card-image">
+          <img src="images/img1.jpg" class="img1 img_card"/>
+        </div>
+      </div>
+
+      <div class="card" id="card2">
+        <div class="card-head">
+          <h3>Documentry</h3>
+        </div>
+        <div class="card-image">
+          <img src="images/ducks.jpg" class="img_card"/>
+        </div>
+      </div>
+
+      <div class="card" id="card3">
+        <div class="card-head">
+          <h3>Poem</h3>
+        </div>
+        <div class="card-image">
+          <img src="images/mountain.jpg" class="img_card"/>
+        </div>
+      </div>
+    
+    <!--Website explaining-->
+    
+    <section class="covering">
+      <div id="d1">
+      <h1>Share your story with the <span class="style-font">World</span> </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas rem itaque, quidem sed expedita accusantium omnis consectetur, consequatur esse, dicta blanditiis molestiae accusamus. Quisquam fuga autem at expedita maxime soluta blanditiis modi ad consectetur animi. Maiores modi suscipit voluptas vero.</p>
+      </div>
+      <div>
+      <img src="images/world.jpg"/>
+      </div>
+    </section>
+    <div class="covering something" >
+      <div>
+        <img id="com" src="images/community.jpeg"/>
+      </div>
+      <div id="d2">
+        <h1>Join <span class="style-font">Millions</span> of others </h1>
+        <p>What ever is in your mind you have a great company in Write<span style="color:purple;">r</span> . Sign in and read the best stories and poems writen by people out of there passion</p>
+      </div>
+        
+    </div>
+
+    <!--modal popups-->
+    <div class="modal" id="modal-content">
+      <div class="modal-header">
+        <h2>Contact</h2>
+      </div>
+        <p>Feel free to send an email to pavan@gmail.com (the buttons below will open your default mailing option).</p>
+      <div class="modal-body">
+        <div class="row">
+        <button class="modal-btn">
+          <img src="images/question.svg" class="btn-icon"/>
+          Question
+        </button>
+        <button class="modal-btn btn-l">
+          <img src="images/chat-dots-fill.svg" class="btn-icon"/>
+          Feedback
+        </button>
+      </div>
+      <div class="row">
+        <button class="modal-btn">
+          <img src="images/bug-fill.svg" class="btn-icon"/>
+          Bug Report
+        </button>
+        <button class="modal-btn btn-l">
+          <img src="images/person-circle.svg" class="btn-icon"/>
+          Account Help
+        </button>
+      </div>
+      <div class="row">
+        <button class="modal-btn">
+          <img src="images/briefcase-fill.svg" class="btn-icon"/>
+          Business Inquiry
+        </button>
+        <button class="modal-btn btn-l">
+          <img src="images/three-dots.svg" class="btn-icon"/>
+          Other
+        </button>
+      </div>
+      </div>
+    </div>
+    <div class="modal" id="modal2">
+      <p>This website is capable of accessing innovative write<span style="color:purple;">r</span>s and fascinated readers. This is 
+        a platform where one's writings are locked forever, and accessable anytime and anywhere on fingertips.
+        You can also follow your favourite write<span style="color:purple;">r</span>s. 
+      </p>
+      <h5>Come, fall in love with writing and reading!!!</h5> 
+    </div>
+    <div id="overlay"></div>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="top" >
+          <div class="col-1">
+              <h3>Help</h3>
+              <ul>
+              <li><button id="modal-open" onclick="modalOpen2()">About</button></li>
+              <li><button id="modal-open" onclick="modalOpen()">Contact</button></li>
+              </ul>
+          </div>
+          <div class="col-2">
+              <h3>Community</h3>
+              <a href="https://youtu.be/9m9wzts_HA4" target="blank">Vihaan</a>
+          </div>
+          <div class="col-3">
+              <h3>Developers</h3>
+              <ul>
+                <li>Pavan</li>
+                <li>Charan</li>
+              </ul>
+          </div>
+      </div>
+      <hr>
+      <div class="col-4">
+          <ul>
+              <li class="order"><a href="https://policies.google.com/terms?hl=en-US" target="blank">Terms of Service</a></li>
+              <li class="order"><a href="https://policies.google.com/privacy?hl=en-US" target="blank">Privacy Policy</a></li>
+              <li class="order"><a href=""> Content Policy</a></li>
+          </ul>
+      </div>
+  </footer>
+    <script lang="javascript" type="text/javascript" src="script.js"></script>
+</body>
+</html>
