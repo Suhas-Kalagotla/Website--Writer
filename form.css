@@ -24,3 +24,33 @@ header a{
     font-weight:800; 
     padding-left:8px; 
 }
+
+.container{
+    height:70vh; 
+    width:40%;
+    background-color:#a1d0ec;
+    position:relative; 
+    margin:5% auto; 
+    border-radius:15px; 
+}
+.head{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:aliceblue; 
+}
+.head button{
+    padding:5px 10px; 
+    border:none; 
+    background-color:aliceblue; 
+    width:100%;
+    height:100%; 
+    cursor:pointer;
+}
+#btn-log:hover{
+    background-color:#a1d0ec; 
+    border-radius: 15px 15px 0 0;
+}
+#btn-sign:hover{
+    background-color:#a1d0ec; 
+    border-radius:15px 15px 0 0; 
+}
