@@ -6,11 +6,12 @@
     letter-spacing:2px; 
 }
 body{
-    background-color:aliceblue;
+    background-color:#f2aa4cff;
 }
 .icon{
     height:35px; 
-    width:35px; 
+    width:35px;
+    cursor:none;  
 }
 header{
     display:flex; 
@@ -23,36 +24,68 @@ header a{
     color:black; 
     font-weight:800; 
     padding-left:8px; 
+    cursor:none; 
 }
 
 .container{
-    height:70vh; 
+    height:60vh;
     width:40%;
-    background-color:#a1d0ec;
+    background-color:#101820ff;
     position:relative; 
     margin:5% auto; 
-    border-radius:15px; 
+    margin-top:0; 
+    border-radius:0 0 15px 15px; 
 }
 .head{
+    position:relative; 
+    margin: 5% auto; 
+    margin-bottom:0; 
+    width:40%; 
     display:flex;
     justify-content:space-evenly;
-    background-color:aliceblue; 
+    background-color:#f2aa4cff; 
 }
 .head button{
     padding:5px 10px; 
     border:none; 
-    background-color:aliceblue; 
+    background-color:#f2aa4cff; 
     width:100%;
     height:100%; 
     cursor:pointer;
+    font-size:medium; 
+    font-weight:bolder;
 }
 #btn-log.active{
-    background-color:#a1d0ec; 
+    background-color:#101820ff; 
     border-radius: 15px 15px 0 0;
-    color:violet; 
+    color:#f2aa4cff; 
 }
 #btn-sign.active{
-    background-color:#a1d0ec; 
+    background-color:#101820ff; 
     border-radius: 15px 15px 0 0;
-    color:violet; 
+    color:#f2aa4cff; 
 }
+
+#login-form {
+    height:100%; 
+    width:100%; 
+    background-color:#101820ff; 
+    display:none;
+    color:white; 
+    border-radius:0 0 15px 15px; 
+}
+#login-form.active{
+    display:block; 
+}
+#signin-form{
+    display:none; 
+    height:100%; 
+    width:100%; 
+    background-color:#101820ff;
+    border-radius:0 0 15px 15px; 
+    color:white; 
+}
+#signin-form.active{
+    display:block; 
+}
+
