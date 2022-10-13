@@ -10,7 +10,7 @@
     z-index:10000; 
     background-color:#323437;
     width:55%; 
-    height:60vh;  
+    height:auto;  
     padding:20px; 
 }
 .modal.active{
