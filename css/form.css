@@ -106,7 +106,7 @@ header a{
 .loginbox input[type="email"] , input[type="password"] , input[type="text"] {
     border: none;
     color: aliceblue;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
 }
