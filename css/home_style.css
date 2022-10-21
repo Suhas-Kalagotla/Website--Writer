@@ -108,6 +108,9 @@ header.sticky .logo a{
     height:85vh; 
 }
 
+img { 
+    object-fit:contain; 
+}
 /*button */ 
 .btn{
     font-family:"Montserrat";
