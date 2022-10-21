@@ -108,9 +108,7 @@ header.sticky .logo a{
     height:85vh; 
 }
 
-img { 
-    object-fit:contain; 
-}
+
 /*button */ 
 .btn{
     font-family:"Montserrat";
@@ -173,14 +171,14 @@ img {
 }
 .covering  img{
     margin-right:20px; 
-    height:60vh; 
+    height:60%; 
     border-radius:10px; 
 }
 
 #com{
     margin-right:0px; 
     margin-left:20px; 
-    height:60vh; 
+    height:60%; 
 }
 
 
