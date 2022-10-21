@@ -8,13 +8,16 @@
 }
 body{
     background-color:#f2aa4cff;
+    background-image: url("../images/pexels-quintin-gellar-313782.jpg");
+    background-size: cover;
 }
 .icon{
     height:35px; 
     width:35px;
-    cursor:none;  
+    cursor: none; 
 }
 header{
+    background-color:#f2aa4cff;
     display:flex; 
     align-items:center;
     padding: 14px 3%; 
@@ -29,9 +32,9 @@ header a{
 }
 
 .container{
-    height:auto;
-    width:40%;
-    background-color:#101820ff;
+    height: auto;
+    width: 32%;
+    /* background-color:#101820ff; */
     position:relative; 
     margin:5% auto; 
     margin-top:0; 
@@ -41,10 +44,12 @@ header a{
     position:relative; 
     margin: 5% auto; 
     margin-bottom:0; 
-    width:40%; 
+    width:32%; 
     display:flex;
     justify-content:space-evenly;
     background-color:#f2aa4cff; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .head button{
     padding:5px 10px; 
@@ -57,12 +62,12 @@ header a{
     font-weight:bolder;
 }
 #btn-log.active{
-    background-color:#101820ff; 
+    background-color:#101820ff;
     border-radius: 15px 15px 0 0;
     color:#f2aa4cff; 
 }
 #btn-sign.active{
-    background-color:#101820ff; 
+    background-color:#101820ff;
     border-radius: 15px 15px 0 0;
     color:#f2aa4cff; 
 }
@@ -70,7 +75,8 @@ header a{
 #login-form {
     height:100%; 
     width:100%; 
-    background-color:#101820ff; 
+   /* background-color:#101820ff; */ 
+   background:  rgba(0, 0, 0, 0.7) ;
     display:none;
     color:white; 
     border-radius:0 0 15px 15px; 
@@ -82,12 +88,27 @@ header a{
     display:none; 
     height:100%; 
     width:100%; 
-    background-color:#101820ff;
+   /* background-color:#101820ff; */
+   background: rgba(0, 0, 0, 0.7);
     border-radius:0 0 15px 15px; 
     color:white; 
 }
 #signin-form.active{
     display:block; 
+}
+
+.profilepic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.loginbox input[type="email"] , input[type="password"] , input[type="text"] {
+    border: none;
+    color: aliceblue;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
 }
 
 form{
@@ -101,8 +122,8 @@ form{
     padding: 5px;
     padding-left: 15px;
     display: flex;
-    margin-top: 5px;
-    margin-bottom: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 h2{
@@ -110,13 +131,18 @@ h2{
     margin-bottom: 5px;
 }
 
-div p{
-    font-size: xx-small;
+.loginbox p{
+    font-size: smaller;
+    margin-top: 15px;
     margin-bottom: 5px;
+    padding: 2px;
 }
+
 
 .blue{
     color: deepskyblue;
+    font-size: 10px;
+    margin-left: 10px;
 }
 
 img{
@@ -127,7 +153,7 @@ img{
 }
 
 Form1 p{
-    text-align: left;
+    
     padding-left: 25%;
     padding-top: 5px;
 }
