@@ -18,3 +18,16 @@ document.querySelector("#top").addEventListener("click",()=>{
 document.querySelector("#mywork").addEventListener("click",()=>{
     window.open("myWork.html","_self");
 });
+
+
+let btnProfile= document.querySelector("[data-profile]"); 
+
+btnProfile.addEventListener("click",()=>{
+    
+    let profile =document.querySelector("#profile"); 
+    if(profile.style.display=="none") {
+        profile.style.display="flex";
+    }else {
+        profile.style.display ="none";
+    }
+});
