@@ -58,3 +58,9 @@ btns.forEach(btn=>{
         delete activeImg.dataset.active; 
     })
 }); 
+
+//code to open main page
+
+document.querySelector("[data-btn-main]").addEventListener("click",()=>{
+    window.open("main.html","_self"); 
+})
