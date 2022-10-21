@@ -47,13 +47,14 @@ overlay.addEventListener('click',()=>{
     overlay.classList.remove("active"); 
 })
 // to change the color of icons 
-/*
-let btn = document.getElementsByClassName("modal-btn"); 
-let icons = document.getElementsByClassName("btn-icon");
 
-btn.addEventListener("onmouseover",()=>{
-    icons.classList.add("color-chg"); 
-})
-btn.addEventListener("onmouseout",()=>{
-    icons.classList.remove("color-chg"); 
-})*/
+const btns = document.querySelectorAll("[data-modal-button]"); 
+
+btns.forEach(btn=>{
+    btn.addEventListener("onclick",()=>{
+        const img =btn.closest("[data-modal]").querySelector[".btn-icon"]
+        const activeImg = img.querySelector("[data-active]")
+        this.dataset.active = true; 
+        delete activeImg.dataset.active; 
+    })
+}); 

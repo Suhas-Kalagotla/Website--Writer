@@ -107,3 +107,6 @@
     text-align:center;
     color:#646669;
 }
+.btn-icon[data-active]{
+    filter: invert(10%) sepia(0%) saturate(5586%) hue-rotate(283deg) brightness(87%) contrast(77%);
+}

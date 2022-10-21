@@ -36,7 +36,7 @@ a{
 
 header {
     display:flex; 
-    position:fixed; 
+    position:fixed;     
     height:60px; 
     width:100%;   
     justify-content:space-between; 
