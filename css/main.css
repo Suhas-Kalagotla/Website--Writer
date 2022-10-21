@@ -78,6 +78,27 @@
     background-color:#f5f5f5;
     border-radius:50px; 
 }
+/*toot tip*/
+.tooltip{
+    position:absolute; 
+    right:1%;
+    top:75px; 
+    background-color:grey; 
+    color:white; 
+    white-space:nowrap;
+    padding:10px 15px; 
+    border-radius:5px; 
+    display:none; 
+}
+
+#story:hover  .tooltip{
+    display:block; 
+}
+#noti:hover .tooltip{
+    display:block;
+}
+
+
 
 /*side bar */ 
 .container-main{
