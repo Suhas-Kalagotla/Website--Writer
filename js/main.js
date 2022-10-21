@@ -8,3 +8,13 @@ option.addEventListener("click",()=>{
         slide.style.display ="flex"; 
     }
 })
+
+document.querySelector("#read").addEventListener("click",()=>{
+    window.open("main.html","_self");
+});
+document.querySelector("#top").addEventListener("click",()=>{
+    window.open("top.html","_self"); 
+});
+document.querySelector("#mywork").addEventListener("click",()=>{
+    window.open("myWork.html","_self");
+});
