@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@500&family=Poppins&family=Roboto:wght@500&family=Pacifico&display=swap');
 *{
     margin:0; 
     padding:0; 
     letter-spacing:2px; 
-
+    font-family:"Poppins"; 
 }
-
-
 /* header */ 
 .logo{
     display:flex; 
@@ -80,11 +79,13 @@
 }
 /*toot tip*/
 .tooltip{
+    font-family:"Montserrat"; 
+    font-size:16px; 
     position:absolute; 
     right:1%;
     top:75px; 
-    background-color:grey; 
-    color:white; 
+    background-color:rgb(0,0,0,0.7); 
+    color:#f5f5f5; 
     white-space:nowrap;
     padding:10px 15px; 
     border-radius:5px; 
@@ -139,7 +140,8 @@
 
 .content{
     margin-top:1%; 
-    background-color:#f5f5f5; 
+    background-color:#2C2E31; 
+    color:#d1d0d5;
     width:70%; 
     margin-left:5%;  
     align-items:center; 
@@ -147,3 +149,4 @@
     justify-content: center;
     border-radius:10px; 
 }
+
