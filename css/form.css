@@ -168,3 +168,22 @@ Form1 p span{
 a{
     text-decoration: none;
 }
+
+.btn{
+    background-color:transparent;
+    border:none;
+    color:white;
+    display:flex; 
+    align-items:center; 
+    border-radius:10px;     
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color:grey;
+}
+
+#login-form button img{
+    width:25px; 
+    height:25px; 
+}
