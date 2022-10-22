@@ -170,9 +170,8 @@ a{
 }
 
 .btn{
-    background-color:transparent;
+    
     border:none;
-    color:white;
     display:flex; 
     align-items:center; 
     border-radius:10px;     
