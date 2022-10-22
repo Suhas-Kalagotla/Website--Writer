@@ -8,7 +8,6 @@
 }
 body{
     background-color:#f2aa4cff;
-    background-image: url("../images/pexels-quintin-gellar-313782.jpg");
     background-size: cover;
 }
 .icon{
@@ -32,9 +31,10 @@ header a{
 }
 
 .container{
+
     height: auto;
     width: 32%;
-    /* background-color:#101820ff; */
+    background-color:#101820ff;
     position:relative; 
     margin:5% auto; 
     margin-top:0; 
@@ -75,8 +75,7 @@ header a{
 #login-form {
     height:100%; 
     width:100%; 
-   /* background-color:#101820ff; */ 
-   background:  rgba(0, 0, 0, 0.7) ;
+    background-color:#101820ff;  
     display:none;
     color:white; 
     border-radius:0 0 15px 15px; 
@@ -88,8 +87,7 @@ header a{
     display:none; 
     height:100%; 
     width:100%; 
-   /* background-color:#101820ff; */
-   background: rgba(0, 0, 0, 0.7);
+    background-color:#101820ff; 
     border-radius:0 0 15px 15px; 
     color:white; 
 }
